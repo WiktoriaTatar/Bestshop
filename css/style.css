@@ -265,15 +265,19 @@
     margin-bottom: 0;
 }
 .benefits-box-trumpet {
-    max-width: 620px;
+    max-width: 800px;
 }
 .benefits-box-trumpet .benefits-txt-box{
     max-width: none;
-    margin: 70px 53px;
+    margin: 70px 240px 70px 40px;
+}
+.benefits-txt, .benefits-txt-box {
+    width: 627px;
 }
 .benefits-separate .benefits-article-box{
     margin: 0;
 }
+
 .benefits-img-container-trumpet {
     /*flex-grow: 1;*/
     width: 440px;
@@ -283,10 +287,68 @@
     justify-content: center;
     background-color: var(--color-green);
     border: none;
-    margin-left: 60px;
+    /*margin-left: 60px;*/
 }
 .trumpet-img {
     width: 295px;
     height: auto;
     margin-top: 55px;
+}
+.pricing{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.pricing-box {
+    margin-top: 50px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--color-redish);
+    border-radius: 18px;
+    padding: 110px;
+    font-family: "Open Sans",sans-serif;
+}
+.pricing-box--professional{
+    border:1px solid var(--color-primary) ;
+}
+.pricing-box--premium {
+    border:1px solid var(--color-green) ;
+}
+.pricing-type{
+    font-family: "Raleway",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.pricing-price{
+    font-family: "Open Sans",sans-serif;
+    font-weight: lighter;
+    font-size: 46px;
+    letter-spacing: 0;
+    color: var(--color-redish);
+    margin-bottom: 70px;
+}
+.pricing-price-prof {
+    color: var(--color-primary);
+}
+.pricing-price-prem {
+    color: var(--color-green);
+}
+.pricing-items {
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.pricing-item{
+    margin-bottom: 20px;
 }
