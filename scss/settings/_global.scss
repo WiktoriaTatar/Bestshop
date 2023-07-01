@@ -23,7 +23,16 @@ h2 {
   width: 1352px;
   margin: 0 auto;
 }
+.container {
+  width: 100%;
+  padding: 0 15px;
 
+  @include desktop {
+    width: 1352px;
+    margin: 0 auto;
+
+  }
+}
 
 .logo {
   font-family: $font-raleway;
